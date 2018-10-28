@@ -1,0 +1,72 @@
+body{
+  background-color: #fff8cf ;
+}
+
+.title {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+
+.construction-text{
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.container{
+  display: inline-block;
+  /* background-color: blue; */
+  position: relative;
+  margin: auto;
+  /* width: 300px;
+  height: 450px; */
+  /* margin: 0 75% 0 20%; */
+}
+
+
+
+.icon-name {
+  width: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: -50px;
+  /* position: absolute;
+  top: 150px;
+  left: 300px; */
+/*   background-color: red; */
+}
+
+
+
+.arrow {
+    -webkit-animation: rotation 3s infinite linear;
+	-moz-animation: rotation 3s infinite linear;
+	-o-animation: rotation 3s infinite linear;
+	animation: rotation 3s infinite linear;
+    transform-origin: 102px 94px;
+    -webkit-transform-origin: 102px 94px;
+    -moz-transform-origin: 102px 94px;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+    to   {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+    from {-o-transform: rotate(0deg);}
+    to   {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(359deg);}
+}

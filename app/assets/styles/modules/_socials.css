@@ -1,0 +1,51 @@
+.socials {
+  background-color: $mainGreen;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  &__title {
+    font-family: var(--secondary-font);
+    font-size: 48px;
+    font-weight: 700;
+    grid-column: 1 / span 4;
+  }
+
+  &__btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__facebook {
+    background-image: url(/assets/images/svgs/facebook.svg);
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
+  }
+  &__instagram {
+    background-image: url(/assets/images/svgs/instagram.svg);
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
+  }
+  &__twitter {
+    background-image: url(/assets/images/svgs/twitter.svg);
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
+  }
+  &__youtube {
+    background-image: url(/assets/images/svgs/youtube.svg);
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
+  }
+}

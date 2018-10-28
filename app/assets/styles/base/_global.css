@@ -1,0 +1,41 @@
+:root {
+  --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Playfair Display', serif;
+  --main-font: 'Jura', sans-serif;
+  --secondary-font: 'Lobster', cursive;
+  --main-font: Futura,Trebuchet MS,Arial,sans-serif; 
+  --secondary-font: 'ThirstyScript', cursive;
+  /* --secondary-font: 'Cormorant Garamond', serif; */
+  /* --secondary-font: 'PT Serif', serif; */
+}
+
+@font-face {
+  font-family: "ThirstyScript";
+  src: url("/assets/ThirstyScriptExtraBoldDemo.otf");
+}
+
+body{
+  font-family: var(--main-font);
+  color: #333;
+}
+
+h1, h2, h3, h4 ,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  display: block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
