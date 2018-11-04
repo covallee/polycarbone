@@ -14,9 +14,15 @@
     position: relative;
     display: inline-block;
     z-index: 10;
-    width: 500px;
-    height: 300px;
+    width: 80%;
+    height: 150px;
     margin: 30px 0 0 0;
+
+    @mixin atLg {
+      width: 500px;
+      height: 300px;
+      margin: 30px 0 0 0;
+    }
 
     .icon--polycarbone-white {
       background-image: url(/assets/images/svgs/polycarbone-white.svg);
@@ -29,23 +35,33 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    width: 62%;
-    font-size: 45px;
+    width: 80%;
+    font-size: 22px;
     font-weight: 600;
     color: $white;
     text-transform: uppercase;
     z-index: 10;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @mixin atLg {
+      width: 62%;
+      font-size: 45px;
+    }
   }
 
   &__background {
     position: absolute;
-    top: -500px;
+    top: -300px;
     background-color: $mainGreen;
-    height: 1000px;
+    height: 500px;
     width: 100%;
     border-radius: 170px;
     transform: rotate(15deg);
-    
+  }
+
+  @mixin atLg {
+    top: -500px;
+    height: 1000px;
+    width: 100%;
   }
 }

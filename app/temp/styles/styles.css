@@ -341,6 +341,24 @@ template {
   display: none;
 }
 
+@define-mixin atSmall {
+  @media (min-width: 530px){
+    @mixin-content;
+  }
+}
+
+@define-mixin atMd {
+  @media (min-width: 800px){
+    @mixin-content;
+  }
+}
+
+@define-mixin atLg {
+  @media (min-width: 1010px){
+    @mixin-content;
+  }
+}
+
 :root {
   --main-font: 'Montserrat', sans-serif;
   --secondary-font: 'Playfair Display', serif;
@@ -401,15 +419,27 @@ img {
   background-color: #EEEEEE;
   overflow-x: hidden;
   overflow-y: visible;
+
+  @mixin atLg {
+    top: -500px;
+    height: 1000px;
+    width: 100%;
+  }
 }
 
 .hero__title {
     position: relative;
     display: inline-block;
     z-index: 10;
-    width: 500px;
-    height: 300px;
+    width: 80%;
+    height: 150px;
     margin: 30px 0 0 0;
+
+    @mixin atLg {
+      width: 500px;
+      height: 300px;
+      margin: 30px 0 0 0;
+    }
   }
 
 .hero__title .icon--polycarbone-white {
@@ -422,25 +452,29 @@ img {
     padding: 0;
     margin: 0;
     text-align: center;
-    width: 62%;
-    font-size: 45px;
+    width: 80%;
+    font-size: 22px;
     font-weight: 600;
     color: #FFFFFF;
     text-transform: uppercase;
     z-index: 10;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @mixin atLg {
+      width: 62%;
+      font-size: 45px;
+    }
   }
 
 .hero__background {
     position: absolute;
-    top: -500px;
+    top: -300px;
     background-color: #91CF66;
-    height: 1000px;
+    height: 500px;
     width: 100%;
     border-radius: 170px;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
-    
   }
 
 #mission-objectifs{
@@ -946,7 +980,7 @@ img {
   }
 
 .sponsors img {
-    height: 100px;
+    /* height: 100px; */
   }
 
 .socials {
@@ -975,6 +1009,11 @@ img {
     width: 40px;
     height: 40px;
   }
+
+.socials__btn:hover, .socials__btn:focus {
+      -webkit-filter: invert(100%);
+              filter: invert(100%);
+    }
 
 .socials__facebook {
     background-image: url(/assets/images/svgs/facebook.svg);
