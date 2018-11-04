@@ -2,124 +2,124 @@
 
 
   .icon {
-    background-image: url('../../assets/images/sprites/sprite-81afe60f.svg');
+    background-image: url('../../assets/images/sprites/sprite-bf8b7f1e.svg');
   }
 
   .no-svg .icon {
-    background-image: url('../../assets/images/sprites/sprite-81afe60f.png');
+    background-image: url('../../assets/images/sprites/sprite-bf8b7f1e.png');
   }
   .icon--Background2{
     width: 414px;
     height: 367px;
-    background-position: 73.11951126384116% 96.05015673981191%;
+    background-position: 92.74532264222987% 70.72945521698985%;
   }
 
   .icon--Background2-old{
     width: 475px;
     height: 390px;
-    background-position: 21.266614542611414% 97.45547073791349%;
+    background-position: 41.360437842064115% 71.48856742883808%;
   }
 
   .icon--Background2_copy{
     width: 475px;
     height: 390px;
-    background-position: 39.83580922595778% 97.45547073791349%;
+    background-position: 59.929632525410476% 71.48856742883808%;
   }
 
   .icon--Background3{
     width: 421px;
     height: 383px;
-    background-position: 57.19754977029096% 97.02343255224825%;
+    background-position: 76.87595712098009% 71.25581395348837%;
   }
 
   .icon--alimentation{
     width: 69px;
     height: 102px;
-    background-position: 85.8974358974359% 75.26881720430107%;
+    background-position: 81.64642375168691% 55.73837926779103%;
   }
 
   .icon--award{
     width: 70.32px;
     height: 127px;
-    background-position: 99.81098194877612% 60.86158038147139%;
+    background-position: 97.44555605060283% 35.74397339983375%;
   }
 
   .icon--calculator{
     width: 146.08px;
     height: 182px;
-    background-position: 97.37020769539855% 62.742134831460675%;
+    background-position: 44.96141216244302% 50.19140791152701%;
   }
 
   .icon--clapperboard{
     width: 102px;
     height: 127px;
-    background-position: 48.82292732855681% 64.30517711171662%;
+    background-position: 72.46673490276356% 56.317539484621776%;
   }
 
   .icon--computer{
     width: 52px;
     height: 64.5px;
-    background-position: 99.41630325394163% 39.94729907773386%;
+    background-position: 83.49547131834954% 54.89163459590845%;
   }
 
   .icon--consomation{
     width: 71px;
     height: 102px;
-    background-position: 83.55840648210669% 75.26881720430107%;
+    background-position: 99.8419986495611% 35.37638831756479%;
   }
 
   .icon--dechets{
     width: 92px;
     height: 102px;
-    background-position: 81.0268616116967% 75.26881720430107%;
+    background-position: 79.1567494049643% 55.73837926779103%;
   }
 
   .icon--facebook{
     width: 26px;
     height: 26px;
-    background-position: 98.55670103092784% 42.48450413223141%;
+    background-position: 99.40139674093781% 41.443956920622256%;
   }
 
   .icon--helping_hand{
     width: 325.6px;
     height: 358.81px;
-    background-position: 97.43665509344758% 47.280734036514694%;
+    background-position: 0 99.99126111333416%;
   }
 
   .icon--information{
     width: 514px;
     height: 642px;
-    background-position: 84.31917427550616% 57.42424242424242%;
+    background-position: 0 81.0153358011634%;
   }
 
   .icon--instagram{
     width: 26px;
     height: 26px;
-    background-position: 99.42135018290655% 43.82747933884298%;
+    background-position: 99.40139674093781% 42.48105305145592%;
   }
 
   .icon--paper_bag{
     width: 102px;
     height: 127px;
-    background-position: 45.34288638689867% 64.30517711171662%;
+    background-position: 98.49880586830433% 46.30091438071488%;
   }
 
   .icon--phone{
     width: 102px;
     height: 127px;
-    background-position: 38.38280450358239% 64.30517711171662%;
+    background-position: 75.9467758444217% 56.317539484621776%;
   }
 
   .icon--polycarbone-white{
     width: 913px;
     height: 370px;
-    background-position: 53.06603773584906% 50.879396984924625%;
+    background-position: 53.06603773584906% 37.447988904299585%;
   }
 
   .icon--public-speaking{
     width: 102px;
     height: 127px;
-    background-position: 41.86284544524053% 64.30517711171662%;
+    background-position: 98.49880586830433% 41.02244389027432%;
   }
 
   .icon--team-background{
@@ -131,25 +131,31 @@
   .icon--tons_bees{
     width: 173px;
     height: 207px;
-    background-position: 92.23776223776224% 63.635897435897434%;
+    background-position: 39.33566433566433% 50.73086844368014%;
   }
 
   .icon--transport{
     width: 126px;
     height: 102px;
-    background-position: 77.64017887856897% 75.26881720430107%;
+    background-position: 99.31200550395597% 51.04895104895105%;
   }
 
   .icon--twitter{
     width: 26px;
     height: 26px;
-    background-position: 99.42135018290655% 42.48450413223141%;
+    background-position: 99.40139674093781% 39.36976465895493%;
   }
 
   .icon--undraw_btc{
     width: 544px;
     height: 430px;
-    background-position: 0 100%;
+    background-position: 20.650863800723183% 72.84831193533049%;
+  }
+
+  .icon--undraw_crypto_flowers_6bgv{
+    width: 763px;
+    height: 597px;
+    background-position: 93.568281938326% 39.15289256198347%;
   }
 
   .icon--undraw_superhero{
@@ -167,11 +173,11 @@
   .icon--viedebureau{
     width: 133px;
     height: 102px;
-    background-position: 73.24137931034483% 75.26881720430107%;
+    background-position: 99.55172413793103% 31.180584121760592%;
   }
 
   .icon--youtube{
     width: 26px;
     height: 26px;
-    background-position: 98.55670103092784% 43.82747933884298%;
+    background-position: 99.40139674093781% 40.406860789788595%;
   }
