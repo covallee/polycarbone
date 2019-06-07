@@ -51,17 +51,18 @@
 
   &__background {
     position: absolute;
-    top: -300px;
+    /* top: -300px; */
     background-color: $mainGreen;
-    height: 500px;
+    top: -500px;
+    height: 1000px;
     width: 100%;
     border-radius: 170px;
     transform: rotate(15deg);
   }
 
-  @mixin atLg {
+  /* @mixin atLg {
     top: -500px;
     height: 1000px;
     width: 100%;
-  }
+  } */
 }

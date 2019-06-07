@@ -341,24 +341,6 @@ template {
   display: none;
 }
 
-@define-mixin atSmall {
-  @media (min-width: 530px){
-    @mixin-content;
-  }
-}
-
-@define-mixin atMd {
-  @media (min-width: 800px){
-    @mixin-content;
-  }
-}
-
-@define-mixin atLg {
-  @media (min-width: 1010px){
-    @mixin-content;
-  }
-}
-
 :root {
   --main-font: 'Montserrat', sans-serif;
   --secondary-font: 'Playfair Display', serif;
@@ -420,11 +402,11 @@ img {
   overflow-x: hidden;
   overflow-y: visible;
 
-  @mixin atLg {
+  /* @mixin atLg {
     top: -500px;
     height: 1000px;
     width: 100%;
-  }
+  } */
 }
 
 .hero__title {
@@ -434,12 +416,15 @@ img {
     width: 80%;
     height: 150px;
     margin: 30px 0 0 0;
+  }
 
-    @mixin atLg {
+@media (min-width: 1010px){
+
+.hero__title {
       width: 500px;
       height: 300px;
-      margin: 30px 0 0 0;
-    }
+      margin: 30px 0 0 0
+  }
   }
 
 .hero__title .icon--polycarbone-white {
@@ -459,18 +444,22 @@ img {
     text-transform: uppercase;
     z-index: 10;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 
-    @mixin atLg {
+@media (min-width: 1010px){
+
+.hero__subtitle {
       width: 62%;
-      font-size: 45px;
-    }
+      font-size: 45px
+  }
   }
 
 .hero__background {
     position: absolute;
-    top: -300px;
+    /* top: -300px; */
     background-color: #91CF66;
-    height: 500px;
+    top: -500px;
+    height: 1000px;
     width: 100%;
     border-radius: 170px;
     -webkit-transform: rotate(15deg);
